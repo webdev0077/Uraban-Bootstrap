@@ -1,0 +1,337 @@
+.big-wrapper{
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/banner1.png");
+}
+
+.big-wrapper .yin{
+    color: blue;
+    font-size: 18px;
+}
+
+.big-wrapper .navbar-brand{
+    font-size: 13px;
+}
+
+.navbar-default{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background: transparent;
+    border: 0;
+}
+
+.navbar-toggle{
+    display: block;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+.navbar-toggle .icon-bar{
+    background-color: #fff !important;
+}
+
+.navbar-toggle{
+    width: 85px;
+}
+
+.navbar-toggle .icon-right{
+    float: right;
+    position: relative;
+    top: -15px;
+}
+
+.big-wrapper .navbar-brand{
+    color: #fff;
+}
+
+.big-wrapper .navbar-brand:hover{
+    color: #fff;
+}
+
+.big-wrapper .collapse li{
+    color: #fff;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.big-wrapper .collapse ul{
+    position: relative;
+    top: 50px;
+    left: -160px;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 270px;
+    color: #fff;
+}
+
+.container h2{
+    font-size: 40px;
+}
+
+.container p{
+    font-size: 18px;
+    padding: 20px 0px; 
+}
+
+.container .my-button{
+    background-color: blue;
+    width: 130px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.change{
+    position: relative;
+    top: -200px;
+}
+
+.change h3{
+    color: black;
+}
+
+.change p{
+    color: gray;
+    text-align: justify;
+}
+
+.change button{
+    position: relative;
+    left: -210px;
+}
+
+.change img{
+    border-radius: 100%;
+    border: 1px solid gray;
+    padding: 5px;
+    position: relative;
+    top: 80px;
+    left: 40px;
+    width: 60%;
+}
+
+@media only screen and (max-width: 676px){
+    .change img{
+        position: relative;
+        left: 0vw;
+        width: 60%;
+    }
+
+    .change h3{
+        margin-top: 20vh;
+    }
+
+    .change button{
+        position: relative;
+        left: 0vw;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .change img{
+        position: relative;
+        left: 0vw;
+        margin-bottom: 20vh;
+        width: 50%;
+    }
+
+    .change h3{
+        position: relative;
+        top: 10vh;
+    }
+
+    .change p{
+        position: relative;
+        top: 10vh;
+    }
+
+    .change button{
+        position: relative;
+        top: 10vh;
+        left: 0vw;
+    }
+}
+
+.middle {
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+    margin-top: 30vh;
+}
+
+.middle .warm button{
+    background-color: #fff;
+    color: blue;
+}
+
+.middle .warm h3{
+    color: #fff;
+}
+
+@media only screen and (max-width: 1200px){
+
+    .middle{
+        height: 720px;
+    }
+
+
+    .middle img{
+        position: relative;
+        top: -70vh;
+        width: 30%;
+    }
+
+    .middle .warm h3{
+        position: relative;
+        top: 42vh;
+    }
+
+    .middle .warm p{
+        position: relative;
+        top: 40vh;
+    }
+
+    .middle .warm button{
+        position: relative;
+        top: 40vh;
+    }
+}
+
+@media only screen and (max-width: 996px){
+    .middle{
+        height: 900px;
+    }
+
+    .middle img{
+        width: 40%;
+    }
+
+    .middle .warm h3{
+        position: relative;
+        top: 50vh;
+    }
+
+    .middle .warm p{
+        position: relative;
+        top: 50vh;
+    }
+
+    .middle .warm button{
+        position: relative;
+        top: 50vh;
+    }
+}
+
+@media only screen and (max-width: 676px){
+
+    .middle{
+        height: 900px;
+    }
+
+    .middle img{
+        position: relative;
+        top: -90vh;
+        width: 50%;
+        margin-top: -10vh;
+    }
+
+    .middle .warm h3{
+       top: 30vh;
+    }
+
+    .middle .warm p{
+        position: relative;
+        top: 30vh ;
+    }
+
+    .middle .warm button{
+        position: relative;
+        top: 30vh;
+    }
+}
+
+@media only screen and (max-width: 624px){
+    .middle{
+        height: 950px;
+    }
+
+    .middle img{
+        position: relative;
+        bottom: -30vh;
+    }
+}
+
+@media only screen and (max-width: 425px){
+
+    .middle{
+        height: 1100px;
+    }
+
+    .middle .one{
+        position: relative;
+        margin-top: -30vh;
+        width: 70%;
+    }
+
+    .change img{
+        width: 70%;
+        margin-bottom: -0vh;
+        margin-top: -0vh;
+    }
+}
+
+.number{
+    position: relative;
+    top: -35vh;
+}
+
+.number h2{
+    color: black;
+}
+
+.number p{
+    color: gray;
+}
+
+.number img{
+    padding: 10px;
+}
+
+@media only screen and (max-width:1092px){
+
+    .number .ten{
+        padding: 30px;
+    }
+
+    .number .ten img{
+        border: 1px solid gray;
+        padding: 5px;
+    }
+}
+
+.footer{
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer span{
+    position: relative;
+    top: 150px;
+    font-size: 25px;
+    padding-right: 20px;
+    color: gray;
+}
+
+.footer h6{
+    position: relative;
+    top: 160px;
+}
